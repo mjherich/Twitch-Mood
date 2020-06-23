@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "jest --coverage",
     "test:watch": "npm run test -- --watch"
   },
@@ -15,6 +16,7 @@
     "tmi.js": "^1.5.0"
   },
   "devDependencies": {
+    "electron": "^9.0.5",
     "jest": "^26.0.1"
   }
 }
