@@ -215,7 +215,8 @@ const STANDARD_EMOTES = new Set([
     "panicBasket",
     "pastaThat",
     "riPepperonis",
-    "twitchRaid"
+    "twitchRaid",
+    "<3"
 ]);
 
 const BETTER_TTV_EMOTES = new Set([
