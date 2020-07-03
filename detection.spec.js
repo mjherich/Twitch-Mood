@@ -10,7 +10,7 @@ const emptyMsg = "test weiner";
 
 describe("Testing the detector class", () => {
     it('keeps track of most common emote', () => {
-        let Detector = new detector.Detector();
+        let Detector = new detector.Detector(50);
         Detector.msgHandler(msg1);
         expect(Detector.getMostUsed().emote).toBe('Kappa');
         

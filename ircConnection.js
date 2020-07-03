@@ -3,7 +3,7 @@ const tmi = require('tmi.js'); // Twitch IRC SDK
 const detection = require('./detection');
 
 // Create Detector
-const Detector = new detection.Detector();
+const Detector = new detection.Detector(10);
 
 // Define configuration options
 console.log('bot username: ', process.env.BOT_USERNAME);
